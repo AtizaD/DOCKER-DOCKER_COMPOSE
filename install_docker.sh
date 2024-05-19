@@ -45,6 +45,7 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo docker run hello-world
 
 # Verify Docker Compose installation
+ docker --version
 docker-compose --version
 
 echo "Docker and Docker Compose installation completed successfully."
