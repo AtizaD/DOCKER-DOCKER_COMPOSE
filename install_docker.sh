@@ -45,7 +45,17 @@ sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 sudo docker run hello-world
 
 # Verify Docker Compose installation
- docker --version
+docker --version
 docker-compose --version
+
+# Clean up APT cache
+sudo apt-get clean
+
+# Remove the script file
+SCRIPT_PATH=$(realpath "$0")
+sudo rm "$SCRIPT_PATH"
+
+# Clear command history
+history -c
 
 echo "Docker and Docker Compose installation completed successfully."
