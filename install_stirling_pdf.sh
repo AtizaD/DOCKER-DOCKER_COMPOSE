@@ -26,8 +26,8 @@ services:
     volumes:
       - ./trainingData:/usr/share/tessdata # Required for extra OCR languages
       - ./extraConfigs:/configs
-      - ./customFiles:/customFiles # Uncommented for custom files
-      - ./logs:/logs # Uncommented for logs
+  #    - ./customFiles:/customFiles # Uncommented for custom files
+  #    - ./logs:/logs # Uncommented for logs
     environment:
       - DOCKER_ENABLE_SECURITY=false
       - INSTALL_BOOK_AND_ADVANCED_HTML_OPS=false
