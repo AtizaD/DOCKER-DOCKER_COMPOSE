@@ -4,6 +4,10 @@ This script automates the installation process for Docker and Docker Compose on 
 `````
 wget https://raw.githubusercontent.com/AtizaD/DOCKER-DOCKER_COMPOSE/main/install_docker.sh; chmod +x install_docker.sh; ./install_docker.sh
 `````
+## STIRLING PDF INSTALL
+`````
+wget https://raw.githubusercontent.com/AtizaD/DOCKER-DOCKER_COMPOSE/main/install_stirling_pdf.sh; chmod +x install_stirling_pdf.sh; ./install_stirling_pdf.sh
+`````
 
 ## Usage
 
